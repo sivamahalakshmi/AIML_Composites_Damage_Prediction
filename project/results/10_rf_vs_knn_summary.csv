@@ -1,0 +1,5 @@
+model,validation,accuracy,macro_f1
+Random Forest,90/10 hold-out (mentor split),0.981,0.9768
+kNN (k=11),90/10 hold-out (mentor split),0.9604,0.9509
+Random Forest,Leave-one-specimen-out,0.9817,0.9722
+kNN (k=11),Leave-one-specimen-out,0.9616,0.9477

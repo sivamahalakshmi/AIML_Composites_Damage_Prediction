@@ -1,0 +1,9 @@
+specimen,HE-Shear,HE-Tensile,LE-Shear,LE-Tensile
+0pct_CAI,0.064,0.138,0.301,0.497
+0pct_PureComp,0.04,0.149,0.187,0.624
+1pct_CAI,0.03,0.228,0.246,0.497
+1pct_PureComp,0.012,0.199,0.121,0.668
+3pct_CAI,0.214,0.125,0.364,0.298
+3pct_PureComp,0.029,0.385,0.095,0.491
+5pct_CAI,0.083,0.178,0.316,0.423
+5pct_PureComp,0.08,0.133,0.433,0.355

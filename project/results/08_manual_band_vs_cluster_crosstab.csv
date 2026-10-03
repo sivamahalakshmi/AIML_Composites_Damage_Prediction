@@ -1,0 +1,7 @@
+damage_mode,LE-Tensile,HE-Tensile,LE-Shear,HE-Shear
+Debonding,2824,1105,2237,583
+Delamination,4073,1440,3328,1431
+FiberBreakage,1640,249,451,99
+FiberPullout,1146,463,1130,301
+MatrixCracking,2251,1123,1770,313
+Unclassified,771,302,978,566

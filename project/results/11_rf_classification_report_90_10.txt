@@ -1,0 +1,10 @@
+              precision    recall  f1-score   support
+
+    HE-Shear      0.981     0.959     0.970       315
+  HE-Tensile      0.978     0.963     0.970       461
+    LE-Shear      0.979     0.983     0.981       979
+  LE-Tensile      0.986     0.994     0.990      1303
+
+    accuracy                          0.982      3058
+   macro avg      0.981     0.975     0.978      3058
+weighted avg      0.982     0.982     0.982      3058

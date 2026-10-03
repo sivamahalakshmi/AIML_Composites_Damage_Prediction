@@ -1,0 +1,19 @@
+model,validation,fold,accuracy,macro_f1
+Random Forest,90/10 hold-out (mentor split),all,0.981,0.9768
+kNN (k=11),90/10 hold-out (mentor split),all,0.9604,0.9509
+Random Forest,Leave-one-specimen-out,0pct_CAI,0.983,0.9757
+kNN (k=11),Leave-one-specimen-out,0pct_CAI,0.9575,0.947
+Random Forest,Leave-one-specimen-out,0pct_PureComp,0.9751,0.9565
+kNN (k=11),Leave-one-specimen-out,0pct_PureComp,0.9658,0.952
+Random Forest,Leave-one-specimen-out,1pct_CAI,0.9889,0.9842
+kNN (k=11),Leave-one-specimen-out,1pct_CAI,0.9681,0.9522
+Random Forest,Leave-one-specimen-out,1pct_PureComp,0.9955,0.9952
+kNN (k=11),Leave-one-specimen-out,1pct_PureComp,0.9851,0.9852
+Random Forest,Leave-one-specimen-out,3pct_CAI,0.9689,0.9649
+kNN (k=11),Leave-one-specimen-out,3pct_CAI,0.9246,0.9224
+Random Forest,Leave-one-specimen-out,3pct_PureComp,0.9761,0.9408
+kNN (k=11),Leave-one-specimen-out,3pct_PureComp,0.9682,0.9141
+Random Forest,Leave-one-specimen-out,5pct_CAI,0.984,0.98
+kNN (k=11),Leave-one-specimen-out,5pct_CAI,0.966,0.9586
+Random Forest,Leave-one-specimen-out,5pct_PureComp,0.9822,0.9801
+kNN (k=11),Leave-one-specimen-out,5pct_PureComp,0.9575,0.9496

@@ -1,0 +1,3 @@
+group,hits,share_%,accuracy_%
+Confident (>= 70%),2904,94.96,99.72
+Uncertain (< 70%),154,5.04,69.48

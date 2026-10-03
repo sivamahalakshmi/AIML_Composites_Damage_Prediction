@@ -1,0 +1,3 @@
+test_type,HE-Shear,HE-Tensile,LE-Shear,LE-Tensile
+CAI,0.142,0.156,0.327,0.375
+PureComp,0.06,0.149,0.319,0.471

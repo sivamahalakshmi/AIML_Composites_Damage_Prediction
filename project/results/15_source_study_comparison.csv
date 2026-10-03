@@ -1,0 +1,9 @@
+test_type,filler_pct,HE_shear_hit_share_%,HE_shear_energy_share_%
+CAI,0,6.41,26.31
+CAI,1,2.99,11.45
+CAI,3,21.36,58.83
+CAI,5,8.34,32.21
+PureComp,0,3.99,23.43
+PureComp,1,1.19,5.26
+PureComp,3,2.92,10.78
+PureComp,5,7.96,29.56

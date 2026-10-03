@@ -1,0 +1,5 @@
+cluster,hits,share_%,Amplitude,Energy,Duration,Counts,Risetime,RA,AF,PeakFreq,FreqCentroid,interpretation
+LE-Tensile,12705,41.6,59.0,9.0,312.0,28.0,42.0,42.4,92.8,137.0,185.0,Low-energy tensile (matrix micro-cracking)
+HE-Tensile,4682,15.3,74.0,57.0,903.0,77.0,73.0,14.3,88.6,120.0,160.0,High-energy tensile (fibre-dominated)
+LE-Shear,9894,32.4,57.0,14.0,864.0,39.0,339.0,456.7,49.4,123.0,195.0,Low-energy shear (interface / debonding)
+HE-Shear,3293,10.8,67.0,86.0,4127.0,183.0,1780.0,675.5,45.4,146.0,190.0,High-energy shear (delamination growth)

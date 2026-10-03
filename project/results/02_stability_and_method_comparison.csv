@@ -1,0 +1,7 @@
+check,value
+"K-means, 5 random seeds (min ARI)",0.9823257760236922
+"K-means, 5 bootstrap 80% samples (mean ARI)",0.971874299977624
+K-means silhouette,0.3094495730355873
+K-means Davies-Bouldin,1.046270902751009
+GMM silhouette,0.19083954746016757
+GMM Davies-Bouldin,1.7276170619456357
