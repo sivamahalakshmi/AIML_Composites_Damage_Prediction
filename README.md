@@ -1,4 +1,4 @@
-# Damage Characterisation of GFRP Composites under Impact and Compression using Acoustic Emission and Data-Driven Analysis
+# Damage Characterisation of GFRP Composites under Compression After Impact using Acoustic Emission and Data-Driven Analysis
 
 A machine-learning project that identifies damage mechanisms in glass fibre reinforced polymer (GFRP) laminates from acoustic emission (AE) signals, without using pre-assigned labels. It includes a Streamlit app that classifies new AE files and can repeat the whole workflow on AE data from any material.
 
@@ -14,7 +14,7 @@ This project takes a different route:
 2. **Unsupervised clustering.** K-means groups the hits with no labels. The number of clusters is chosen with the Davies–Bouldin index.
 3. **Physical validation.** The clusters are checked against RA–AF behaviour, the order of damage during loading, and impacted vs non-impacted specimens.
 4. **Classifier.** A Random Forest learns the clusters so new AE files can be classified instantly. It is benchmarked against kNN.
-5. **App.** A Streamlit interface shows the results, predicts on new files, and trains on any uploaded AE dataset.
+5. **App.** A Streamlit interface predicts on new files and trains on any uploaded AE dataset.
 
 ## Results
 
@@ -72,14 +72,11 @@ python ae_clustering_analysis.py
 
 ## App pages
 
-| Page | What it shows |
+| Page | What it does |
 |---|---|
 | Home | Project summary and the four damage mechanisms |
-| Damage Clustering | Cluster selection, cluster plot, RA–AF plot, damage progression, impact comparison |
-| Model Validation | Random Forest vs kNN, confusion matrix, feature importance, prediction confidence |
-| Source Study Comparison | Comparison with the findings of the original experimental study |
 | Predict New AE Data | Upload an AE file or enter one hit; get the mechanism and confidence for every hit |
-| Train on Your Own Data | Upload AE data from any material; the app clusters it and trains a model for it |
+| Train on Your Own Data | Upload AE data from any material; the app clusters it and trains a Random Forest for it |
 
 **Quick demo**
 
